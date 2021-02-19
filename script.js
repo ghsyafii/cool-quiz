@@ -1,4 +1,4 @@
-const correctAnswers = ['A', 'B', 'A', 'A', 'A', 'B', 'B', 'B', 'B'];
+const correctAnswers = ['A', 'B', 'A', 'A', 'B', 'A', 'B', 'B', 'B', 'A'];
 
 const form = document.querySelector('.quiz-form');
 
@@ -37,6 +37,11 @@ form.addEventListener('submit', e => {
 
     }, 10)
 
+    const answer = document.querySelectorAll('.answer')
+
+    answer.forEach(answer => {
+        answer.classList.add('green')
+    })
 })
 
 
