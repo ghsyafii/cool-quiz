@@ -8,5 +8,12 @@
 }
 
 body {
-    font-family: "Helvetica";
+    font-family: ".AppleSystemUIFont";
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-family: lora,serif;
+    font-weight: 400;
+    font-style: normal;
 }
